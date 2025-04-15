@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perkenalan Diri Saya</title>
+  <style>
+    /* ===== CSS STYLING ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: #ffffff;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #1f1f1f;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(to right, #111, #333);
+      padding: 40px 30px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 30px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid gold;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h2 {
+      color: gold;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: gold;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffd700cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      
+      <h1>Fein Siga Sawa Keli</h1>
+      <p>Tentang Saya | Pendidikan | Sosial Media</p>
+    </header>
+
+    <section>
+      <h2>Tentang Saya</h2>     
+       <p>Halo! Nama saya Fein Siga Sawa Keli, seorang pelajar yang sedang menempuh pendidikan di Smkn 2 Ende. Saya memiliki minat besar dalam bidang teknologi dan terus belajar untuk mengembangkan keterampilan saya, khususnya di dunia digital dan pemrograman. Selain belajar di sekolah, saya juga senang mengeksplorasi hal-hal baru seperti desain web, coding, dan pengembangan diri. Saya percaya bahwa belajar adalah proses seumur hidup, dan saya selalu bersemangat untuk menghadapi tantangan baru dan tumbuh menjadi pribadi yang lebih baik.</p>
+    </section>
+
+    <section>
+      <h2>Pendidikan Saya</h2>
+      <ul>
+        <li>TK.Maria Virgo</li>
+        <li>Sdk Santa Ursula Ende</li>
+        <li>Smp Santa Ursula Ende</li>
+        <li>Smkn 2 Ende</li>
+      </ul>
+    </section>
+
+    <section>
+        <h2>Alamat/Tempat Tinggal</h2>
+        <ul>
+          <li>Nusa Tenggara Timur,Flores,Ende,Jalan Woloare B,Cabang Smandu</li>
+          
+        
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>Tempat Tanggal Lahir</h2>
+        <ul>
+          <li>Ende,17 Mei 2008</li>
+        </ul>
+      </section>
+
+
+    <section>
+      <h2>Sosial Media Saya</h2>
+      <p>Facebook:FeinKeli </p>
+      <p>Telepon: 08123478910</p>
+      <p>Instagram:FeinK12</p>
+      <a href="mailto:namaanda@email.com" class="btn">Kirim Email</a>
+    </section>
+
+    <footer>
+      &copy; 2025 Fein Keli. 
+    </footer>
+  </div>
+
+  <!-- ===== JS INTERAKTIF SEDERHANA ===== -->
+  <script>
+    document.querySelector('.btn').addEventListener('click', function() {
+      alert('Terima kasih sudah ingin menghubungi saya!');
+    });
+  </script>
+</body>
+</html>
